@@ -1,10 +1,10 @@
 a = int(input())
 b = int(input())
 c = int(input())
-if a % 2 == 0 or b % 2 == 0 or c % 2 == 0:
-    if a % 2 == 1 or b % 2 == 1 or c % 2 == 1:
-        print("Even number")
-    else:
-        print("Odd number")
-else:
-    print("NO")
+if a == 1:
+    print('max')
+elif b == 2:
+    print('min')
+elif c == 3:
+    print((a+b+c)/3)
+else: (False)
