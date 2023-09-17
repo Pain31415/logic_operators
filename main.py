@@ -1,10 +1,11 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if a % 2 == 0 or b % 2 == 0 or c % 2 == 0:
-    if a % 2 == 1 or b % 2 == 1 or c % 2 == 1:
-        print("Even number")
-    else:
-        print("Odd number")
+meters = float(input("Введіть кількість метрів: "))
+print("1. Конвертувати в милі\n2. Конвертувати в дюйми\n3. Конвертувати в ярди")
+num = int(input("Ваш вибір: "))
+if num == 1:
+   print(meters * 0.000621371192)
+elif num == 2:
+   print(meters * 39.3700787)
+elif num == 3:
+   print(meters * 1.0936133)
 else:
-    print("NO")
+   print("Невірний вибір")
